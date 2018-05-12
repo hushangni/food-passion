@@ -1,0 +1,46 @@
+/*orange: #cc5010
+darkgrey: #24292d
+beige: #ebe5d7*/
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Great Vibes', cursive;*/
+
+/** {
+	border: 1px solid lightblue;
+}*/
+
+header {
+	background: black url(../assets/header.jpg);
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	test-align: center;
+}
+
+.header-overlay {
+	background: rgba(39,62,84,0.2);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+header .head-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.wrapper {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.top-nav-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+	width: 200px;
+}
