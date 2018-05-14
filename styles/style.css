@@ -10,6 +10,18 @@ font-family: 'Great Vibes', cursive;*/
 	border: 1px solid lightblue;
 }*/
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
 header {
 	background: black url(../assets/header.jpg);
 	width: 100%;
@@ -43,4 +55,8 @@ header .head-img {
 	left: 0;
 	background: rgba(0,0,0,0.6);
 	width: 200px;
+}
+
+.top-nav a {
+	color: white;
 }
