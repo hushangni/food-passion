@@ -22,6 +22,13 @@ a {
 	text-decoration: none;
 }
 
+.wrapper {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/* Header */
 header {
 	background: black url(../assets/header.jpg);
 	width: 100%;
@@ -36,17 +43,45 @@ header {
     overflow: hidden;
     height: 100%;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header .head-img {
+header .head-img,
+header .view-details {
 	display: block;
 	margin: 0 auto;
 }
 
-.wrapper {
-	width: 80%;
-	max-width: 1000px;
-	margin: 0 auto;
+img.genuine {
+	height: 32px;
+	margin-bottom: 30px;
+}
+
+img.food-passion {
+	height: 87px;
+}
+
+img.cooking-since {
+	height: 40px;
+}
+
+button.view-details {
+	margin-top: 50px;
+	border: none;
+	background-color: rgba(240, 80, 19, 0.85);
+	padding: 18px 35px;
+	border-radius: 3%;
+	display: flex;
+	font-size: 10px;
+	color: white;
+	text-transform: uppercase;
+}
+
+button.view-details img {
+	height: 14px;
+	padding-right: 5px;
 }
 
 .top-nav-bar {
@@ -60,3 +95,4 @@ header .head-img {
 .top-nav a {
 	color: white;
 }
+
